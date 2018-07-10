@@ -1,0 +1,122 @@
+body {
+	background-image: url(../img/fundo.jpg);
+	height: 100%;
+	margin: 0;
+	font-family: "Helvetica", sans-serif;
+}
+
+header {
+	width: 1500px;
+	height: 70px;
+	background-color: #00c4ff;
+	text-align: center;
+	color: #ffffff;
+	margin-top: -20px;
+	margin-left: -8px;
+	margin-right: -5px;
+	font-weight: bold;
+}
+
+#principal {
+	width: auto;
+	height: 100%;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+#principal #info {
+	width: 500px;
+	height: 300px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	border-radius: 5px;
+}
+
+#principal #info h2 {
+	padding-left: 30px;
+}
+
+#principal #info p {
+	margin-left: 30px;
+}
+
+#principal #info img {
+	max-width: 550px;
+	max-height: 180px;
+	border-radius: 5px;
+	margin-bottom: 7px;
+	margin-left: 250px;
+}
+
+#principal #box-comment {
+	width: 500px;
+	height: 300px;
+	background-color: #ffffff;
+	display: inline-block;
+	margin-left: 80px;
+	margin-right: auto;
+	overflow: auto;
+	border-radius: 5px;
+}
+
+#principal #box-comment textarea {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	border: none;
+	border-bottom: 2px solid #00c4ff;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-size: 17px;
+}
+
+#principal #box-comment #tweet {
+	width: 130px;
+	height: 40px;
+	color: #ffffff;
+	background-color: #00c4ff;
+	border: none;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-weight: 700;
+}
+
+#principal #box-comment #tweet:active {
+	background-color: #00c4ff;
+}
+
+#principal #box-comment #contador {
+	display: inline-block;
+	margin-left: 275px;
+}
+
+#principal #box-comment .green {
+	color: green
+}
+
+#principal #box-comment .red {
+	color: red;
+}
+
+#post div {
+	width: 1080px;
+	height: fit-content;
+	background-color: #ffffff;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+#post div textarea,
+#post div p {
+	width: 85%;
+	margin-left: 85px;
+	margin-right: 20px;
+	padding-top: 10px;
+	font-size: 17px;
+	border: none;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
